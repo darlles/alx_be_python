@@ -24,7 +24,7 @@ def main():
                 print(f"'{item}' not found in your shopping list.")
         elif choice == '3':
             if shopping_list:
-                print("\nYour Shopping List:")
+                print("Shopping List Manager")
                 for idx, item in enumerate(shopping_list, start=1):
                     print(f"{idx}. {item}")
             else:
